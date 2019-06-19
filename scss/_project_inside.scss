@@ -1,0 +1,384 @@
+// Project Header
+#headerproject {
+  &-1 {
+    width: 100%;
+    position: relative;
+    margin: auto 0;
+    background-image: url(/dist/img/innertree/Jimsa_Julian_NMN19_CAT_01.png);
+    background-size: cover;
+    color: #fff;
+    height: 75vh;
+
+    .trans-text {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      text-align: center;
+      color: #000;
+      font-size: 7vw;
+      font-weight: 900;
+      margin: 0 auto;
+      width: 50%;
+      mix-blend-mode: screen;
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    }
+  }
+  &-4 {
+    @extend #headerproject-1;
+    background-image: url(/dist/img/rutaseda/tienda.jpg);
+
+    .trans-text {
+      font-size: 4vw;
+    }
+  }
+  &-5 {
+    @extend #headerproject-1;
+    background-image: url(/dist/img/cp&t/product2.jpg);
+
+    .trans-text {
+      font-size: 6vw;
+      width: 60%;
+    }
+  }
+
+  &-6 {
+    @extend #headerproject-1;
+    background-image: url(/dist/img/smile/Jimsa_20180104_0088.jpg);
+
+    .trans-text {
+      font-size: 4vw;
+    }
+  }
+  &-7 {
+    @extend #headerproject-1;
+    background-image: url(/dist/img/experiments/symbio.png);
+
+    .trans-text {
+      font-size: 6vw;
+    }
+  }
+}
+
+// Project Content
+#project {
+  &-1 {
+    .intro {
+      margin-top: 10rem;
+      padding: 1rem;
+    }
+
+    .container {
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .intro-content {
+      @include flexSpaceAround(row);
+    }
+
+    .intro-text {
+      width: 40%;
+      margin: 1rem;
+      text-align: right;
+
+      h2 {
+        margin: 1rem;
+        padding-bottom: 1rem;
+      }
+    }
+
+    .intro-text2 {
+      width: 40%;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: 0.9s all ease-in-out;
+      margin: 1rem;
+      text-align: right;
+
+      h2 {
+        margin: 1rem;
+        padding-bottom: 1rem;
+      }
+    }
+
+    .intro-skills {
+      position: relative;
+      width: 25rem;
+      height: 25rem;
+      z-index: -1;
+      border-radius: 50%;
+      background: transparent;
+      border: 1px solid $main-color;
+
+      .inner-circle {
+        position: absolute;
+        top: 12.2%;
+        left: 12.2%;
+        margin: 0 auto;
+        background: transparent;
+        border: solid 1px $accent-color;
+        width: 300px;
+        height: 300px;
+        z-index: -1;
+        border-radius: 50%;
+        animation: AnimationName 3s ease infinite,
+          circleAnim 4s infinite alternate;
+
+        @keyframes circleAnim {
+          from {
+            transform: scale(1);
+          }
+          to {
+            transform: scale(1.07);
+          }
+        }
+      }
+
+      .skills-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin: 0 auto;
+        width: 50%;
+      }
+    }
+
+    .intro-appear {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  &-4 {
+    @extend #project-1;
+  }
+
+  &-5 {
+    @extend #project-1;
+    .intro-skills {
+      z-index: 1;
+
+      .skills-text {
+        a {
+          text-decoration: none;
+          color: rgb(206, 130, 30);
+        }
+      }
+    }
+  }
+
+  &-6 {
+    @extend #project-1;
+    .intro-skills {
+      z-index: 1;
+      .skills-text {
+        a {
+          text-decoration: none;
+          color: rgb(206, 130, 30);
+        }
+      }
+    }
+  }
+
+  &-7 {
+    @extend #project-1;
+  }
+}
+
+#info {
+  &-1 {
+    margin-top: 4rem;
+    padding: 1rem;
+
+    .container {
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .infoblock {
+      &-1 {
+        @include flexSpaceAround(row);
+        margin: 1rem;
+        margin-top: 2rem;
+
+        .info-visual {
+          text-align: center;
+          width: 100%;
+          height: auto;
+          margin: 1rem;
+        }
+
+        .info-title {
+          width: 100%;
+          text-align: left;
+          margin: 1rem;
+        }
+
+        .gif {
+          width: 70%;
+          height: 70%;
+        }
+      }
+      &-2 {
+        @include flexSpaceAround(row);
+        margin: 1rem;
+
+        .info-visual {
+          text-align: center;
+          width: 100%;
+          height: auto;
+          margin: 1rem;
+        }
+
+        .info-title {
+          width: 100%;
+          text-align: right;
+          margin: 1rem;
+        }
+
+        .gif {
+          width: 70%;
+          height: 70%;
+        }
+      }
+      &-3 {
+        @include flexSpaceAround(column);
+        margin: 1rem;
+        margin-top: 5rem;
+
+        .info-visual {
+          width: 90%;
+          height: auto;
+          margin: 1rem;
+        }
+
+        .info-title {
+          width: 70%;
+          text-align: left;
+          margin: 1rem;
+        }
+      }
+      &-4 {
+        @include flexSpaceAround(column);
+        margin: 1rem;
+
+        .info-title {
+          width: 100%;
+          text-align: center;
+          margin: 2rem;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  &-5 {
+    @extend #info-1;
+    .infoblock {
+      &-1 {
+        margin-top: 0;
+
+        .gif {
+          width: 80%;
+          height: 80%;
+          border-radius: 50%;
+        }
+      }
+      &-2 {
+        .gif {
+          width: 80%;
+          height: 80%;
+          border-radius: 50%;
+        }
+      }
+      &-3 {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+      }
+    }
+  }
+
+  &-4 {
+    @extend #info-1;
+    .infoblock {
+      &-1 {
+        margin-top: 0;
+
+        .info-visual {
+          margin-top: 2rem;
+        }
+
+        .gif {
+          width: 80%;
+          height: 80%;
+          border: #dad8d8 solid 1px;
+        }
+
+        .gif2 {
+          width: 500px;
+          height: auto;
+        }
+
+        .special {
+          width: 10%;
+          height: 10%;
+        }
+      }
+      &-2 {
+        .gif {
+          width: 80%;
+          height: 80%;
+          border: 1px solid rgb(220, 220, 221);
+        }
+      }
+      &-3 {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+      }
+    }
+  }
+
+  &-6 {
+    @extend #info-1;
+    .infoblock {
+      &-1 {
+        margin-top: 0;
+
+        .info-visual {
+          margin-top: 2rem;
+        }
+
+        .gif2 {
+          width: 500px;
+          height: auto;
+        }
+      }
+      &-2 {
+        .gif {
+          width: 80%;
+          height: 80%;
+          border-radius: 50%;
+          border: #e9e9e9 solid 1px;
+        }
+        .gif3 {
+          width: 80%;
+          height: 80%;
+        }
+      }
+      &-3 {
+        @include flexSpaceAround(column);
+        margin: 1rem;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+      }
+    }
+  }
+
+  &-7 {
+    @extend #info-1;
+  }
+}
