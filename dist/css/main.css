@@ -1008,7 +1008,7 @@ img {
 
 #contact-a {
   position: relative;
-  top: 50%;
+  top: 45%;
   transform: perspective(1px) translateY(-50%);
   animation: aniIntro 1s ease-in;
   z-index: 1;
@@ -1025,7 +1025,7 @@ img {
     justify-content: center; }
   #contact-a .circle {
     position: absolute;
-    top: -5%;
+    top: -9%;
     background: #208a92;
     color: #fff;
     width: 500px;
@@ -1195,7 +1195,7 @@ img {
     border-radius: 50px;
     font-size: 1.2rem;
     display: block;
-    margin: 1 auto; }
+    margin: 1rem auto !important; }
 
 #contact-b {
   margin-top: 4rem;
@@ -1212,7 +1212,7 @@ img {
     text-align: center;
     color: #208a92; }
     #contact-b .contact-info1 div {
-      margin: 1rem; }
+      margin: 1.5rem; }
   #contact-b .contact-info2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

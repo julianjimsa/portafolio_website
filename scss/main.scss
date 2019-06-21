@@ -574,7 +574,7 @@ img {
   // Contact-A (Contact Form)
   &-a {
     position: relative;
-    top: 50%;
+    top: 45%;
     transform: perspective(1px) translateY(-50%);
     animation: aniIntro 1s ease-in;
     z-index: 1;
@@ -596,7 +596,7 @@ img {
     }
     .circle {
       position: absolute;
-      top: -5%;
+      top: -9%;
       background: $main-color;
       color: #fff;
       // border: solid 1px #248ca7;
@@ -724,7 +724,7 @@ img {
       border-radius: 50px;
       font-size: 1.2rem;
       display: block;
-      margin: 1 auto;
+      margin: 1rem auto !important;
     }
   }
 
@@ -747,7 +747,7 @@ img {
       color: $main-color;
 
       div {
-        margin: 1rem;
+        margin: 1.5rem;
       }
     }
     .contact-info2 {
