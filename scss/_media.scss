@@ -165,11 +165,14 @@
 
   // Contact
   #main-nav {
-    z-index: 200 !important;
+    a {
+      z-index: 200 !important;
+    }
   }
 
   #contact {
     &-a {
+      pointer-events: none;
       .circle {
         position: absolute;
         top: 25% !important;
