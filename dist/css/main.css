@@ -165,7 +165,7 @@ input[class^="btn-"]:hover {
   #about-a .bio, #about-b .bio, #about-c .bio, #about-d .bio, #about-e .bio {
     font-size: 1.5rem;
     line-height: 50px; }
-  #about-b video {
+  #about-b img {
     width: 130px;
     margin-bottom: -21px;
     margin-left: 0.3rem;
@@ -1144,7 +1144,7 @@ img {
     border-radius: 50px;
     font-size: 1.2rem;
     display: block;
-    margin: 0 auto; }
+    margin: 1 auto; }
 
 #contact-b {
   margin-top: 4rem;
@@ -1161,7 +1161,7 @@ img {
     text-align: center;
     color: #208a92; }
     #contact-b .contact-info1 div {
-      margin: 2rem; }
+      margin: 1rem; }
   #contact-b .contact-info2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1244,7 +1244,7 @@ img {
   #about-a .bio, #about-b .bio, #about-c .bio, #about-d .bio, #about-e .bio {
     font-size: 1.5rem;
     line-height: 50px; }
-  #about-b video {
+  #about-b img {
     width: 130px;
     margin-bottom: -21px;
     margin-left: 0.3rem;
