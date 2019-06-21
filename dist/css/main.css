@@ -140,7 +140,7 @@ input[class^="btn-"]:hover {
     border-bottom: 3px solid #208a92;
     background-position: 20% 30%; }
     #header-home span {
-      font-size: 2.5rem; }
+      font-size: 2rem; }
     #header-home .header-content .circle {
       position: absolute;
       top: 10% !important;
@@ -183,7 +183,8 @@ input[class^="btn-"]:hover {
   #about-e .small {
     font-size: 2rem !important;
     line-height: 0px !important; }
-  #main-nav ul, #main-nav a {
+  #main-nav ul,
+  #main-nav a {
     z-index: 200 !important; }
   #contact-a .circle {
     position: absolute;
@@ -1226,7 +1227,7 @@ img {
     border-bottom: 3px solid #208a92;
     background-position: 20% 30%; }
     #header-home span {
-      font-size: 2.5rem; }
+      font-size: 2rem; }
     #header-home .header-content .circle {
       position: absolute;
       top: 10% !important;
@@ -1269,7 +1270,8 @@ img {
   #about-e .small {
     font-size: 2rem !important;
     line-height: 0px !important; }
-  #main-nav ul, #main-nav a {
+  #main-nav ul,
+  #main-nav a {
     z-index: 200 !important; }
   #contact-a .circle {
     position: absolute;
