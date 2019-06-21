@@ -48,9 +48,14 @@
 
 // Smartphones
 @media (max-width: 500px) {
+  .cursor {
+    display: none;
+  }
+
   #main-nav {
     flex-direction: column;
     align-items: center;
+    z-index: 200;
 
     li {
       padding: 1rem;
@@ -159,6 +164,10 @@
   }
 
   // Contact
+  #main-nav {
+    z-index: 200 !important;
+  }
+
   #contact {
     &-a {
       .circle {

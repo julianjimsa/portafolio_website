@@ -127,9 +127,12 @@ input[class^="btn-"]:hover {
     height: 10px; } }
 
 @media (max-width: 500px) {
+  .cursor {
+    display: none; }
   #main-nav {
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    z-index: 200; }
     #main-nav li {
       padding: 1rem; }
   #header-home {
@@ -180,6 +183,8 @@ input[class^="btn-"]:hover {
   #about-e .small {
     font-size: 2rem !important;
     line-height: 0px !important; }
+  #main-nav {
+    z-index: 200 !important; }
   #contact-a .circle {
     position: absolute;
     top: 25% !important;
@@ -1208,9 +1213,12 @@ img {
     height: 10px; } }
 
 @media (max-width: 500px) {
+  .cursor {
+    display: none; }
   #main-nav {
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    z-index: 200; }
     #main-nav li {
       padding: 1rem; }
   #header-home {
@@ -1261,6 +1269,8 @@ img {
   #about-e .small {
     font-size: 2rem !important;
     line-height: 0px !important; }
+  #main-nav {
+    z-index: 200 !important; }
   #contact-a .circle {
     position: absolute;
     top: 25% !important;
