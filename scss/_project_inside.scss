@@ -4,7 +4,7 @@
     width: 100%;
     position: relative;
     margin: auto 0;
-    background-image: url(/dist/img/innertree/Jimsa_Julian_NMN19_CAT_01.png);
+    background-image: url(/img/innertree/Jimsa_Julian_NMN19_CAT_01.png);
     background-size: cover;
     color: #fff;
     height: 75vh;
@@ -27,7 +27,7 @@
   }
   &-4 {
     @extend #headerproject-1;
-    background-image: url(/dist/img/rutaseda/tienda.jpg);
+    background-image: url(/img/rutaseda/tienda.jpg);
 
     .trans-text {
       font-size: 4vw;
@@ -35,7 +35,7 @@
   }
   &-5 {
     @extend #headerproject-1;
-    background-image: url(/dist/img/cp&t/product2.jpg);
+    background-image: url(/img/cp&t/product2.jpg);
 
     .trans-text {
       font-size: 6vw;
@@ -45,7 +45,7 @@
 
   &-6 {
     @extend #headerproject-1;
-    background-image: url(/dist/img/smile/Jimsa_20180104_0088.jpg);
+    background-image: url(/img/smile/Jimsa_20180104_0088.jpg);
 
     .trans-text {
       font-size: 4vw;
@@ -53,7 +53,7 @@
   }
   &-7 {
     @extend #headerproject-1;
-    background-image: url(/dist/img/experiments/symbio.png);
+    background-image: url(/img/experiments/symbio.png);
 
     .trans-text {
       font-size: 6vw;
