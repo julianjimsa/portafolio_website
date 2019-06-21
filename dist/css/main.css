@@ -836,11 +836,10 @@ img {
   line-height: 110px;
   letter-spacing: -3px; }
 
-#about-b video {
+#about-b img {
   width: 300px;
   margin-bottom: -45px;
-  margin-left: 1rem;
-  display: inline; }
+  margin-left: 1rem; }
 
 #about-b h3 {
   color: #e6a29f; }
