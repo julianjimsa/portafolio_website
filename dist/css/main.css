@@ -209,7 +209,35 @@ input[class^="btn-"]:hover {
     #contact-b .contact-info2 {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      text-align: center; } }
+      text-align: center; }
+  #headerproject-1, #headerproject-4, #headerproject-5, #headerproject-6, #headerproject-7,
+  #headerproject-2,
+  #headerproject-3,
+  #headerproject-4 {
+    height: 50vh; }
+  #project-1 .intro-content, #project-4 .intro-content, #project-5 .intro-content, #project-6 .intro-content, #project-7 .intro-content {
+    flex-direction: column; }
+  #project-1 .intro-text2, #project-4 .intro-text2, #project-5 .intro-text2, #project-6 .intro-text2, #project-7 .intro-text2 {
+    width: 100%;
+    text-align: center; }
+  #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,
+  #info-1 .infoblock-1,
+  #info-5 .infoblock-1,
+  #info-4 .infoblock-1,
+  #info-6 .infoblock-1,
+  #info-7 .infoblock-1,
+  #info-1 .infoblock-2,
+  #info-5 .infoblock-2,
+  #info-4 .infoblock-2,
+  #info-6 .infoblock-2,
+  #info-7 .infoblock-2,
+  #info-1 .infoblock-3,
+  #info-5 .infoblock-3,
+  #info-4 .infoblock-3,
+  #info-6 .infoblock-3,
+  #info-7 .infoblock-3 {
+    flex-direction: column;
+    width: 100%; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {
@@ -353,7 +381,12 @@ input[class^="btn-"]:hover {
   #info-1 .container, #info-5 .container, #info-4 .container, #info-6 .container, #info-7 .container {
     padding: 1rem;
     margin-bottom: 1rem; }
-  #info-1 .infoblock-1, #info-5 .infoblock-1, #info-4 .infoblock-1, #info-6 .infoblock-1, #info-7 .infoblock-1 {
+  
+  #info-1 .infoblock-1,
+  #info-5 .infoblock-1,
+  #info-4 .infoblock-1,
+  #info-6 .infoblock-1,
+  #info-7 .infoblock-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -372,7 +405,12 @@ input[class^="btn-"]:hover {
     #info-1 .infoblock-1 .gif, #info-5 .infoblock-1 .gif, #info-4 .infoblock-1 .gif, #info-6 .infoblock-1 .gif, #info-7 .infoblock-1 .gif {
       width: 70%;
       height: 70%; }
-  #info-1 .infoblock-2, #info-5 .infoblock-2, #info-4 .infoblock-2, #info-6 .infoblock-2, #info-7 .infoblock-2 {
+  
+  #info-1 .infoblock-2,
+  #info-5 .infoblock-2,
+  #info-4 .infoblock-2,
+  #info-6 .infoblock-2,
+  #info-7 .infoblock-2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -390,7 +428,12 @@ input[class^="btn-"]:hover {
     #info-1 .infoblock-2 .gif, #info-5 .infoblock-2 .gif, #info-4 .infoblock-2 .gif, #info-6 .infoblock-2 .gif, #info-7 .infoblock-2 .gif {
       width: 70%;
       height: 70%; }
-  #info-1 .infoblock-3, #info-5 .infoblock-3, #info-4 .infoblock-3, #info-6 .infoblock-3, #info-7 .infoblock-3 {
+  
+  #info-1 .infoblock-3,
+  #info-5 .infoblock-3,
+  #info-4 .infoblock-3,
+  #info-6 .infoblock-3,
+  #info-7 .infoblock-3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1296,7 +1339,35 @@ img {
     #contact-b .contact-info2 {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      text-align: center; } }
+      text-align: center; }
+  #headerproject-1, #headerproject-4, #headerproject-5, #headerproject-6, #headerproject-7,
+  #headerproject-2,
+  #headerproject-3,
+  #headerproject-4 {
+    height: 50vh; }
+  #project-1 .intro-content, #project-4 .intro-content, #project-5 .intro-content, #project-6 .intro-content, #project-7 .intro-content {
+    flex-direction: column; }
+  #project-1 .intro-text2, #project-4 .intro-text2, #project-5 .intro-text2, #project-6 .intro-text2, #project-7 .intro-text2 {
+    width: 100%;
+    text-align: center; }
+  #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,
+  #info-1 .infoblock-1,
+  #info-5 .infoblock-1,
+  #info-4 .infoblock-1,
+  #info-6 .infoblock-1,
+  #info-7 .infoblock-1,
+  #info-1 .infoblock-2,
+  #info-5 .infoblock-2,
+  #info-4 .infoblock-2,
+  #info-6 .infoblock-2,
+  #info-7 .infoblock-2,
+  #info-1 .infoblock-3,
+  #info-5 .infoblock-3,
+  #info-4 .infoblock-3,
+  #info-6 .infoblock-3,
+  #info-7 .infoblock-3 {
+    flex-direction: column;
+    width: 100%; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {

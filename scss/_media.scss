@@ -212,6 +212,37 @@
       }
     }
   }
+
+  // Projects
+
+  #headerproject-1,
+  #headerproject-2,
+  #headerproject-3,
+  #headerproject-4 {
+    height: 50vh;
+  }
+
+  #project-1 {
+    .intro-content {
+      flex-direction: column;
+    }
+
+    .intro-text2 {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  #info-1 {
+    .infoblock-4,
+    .infoblock-1,
+    .infoblock-2,
+    .infoblock-3 {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
   // // Footer
   // #main-footer {
   //   height: 7rem;
