@@ -168,19 +168,21 @@
       }
 
       .section-title2 {
-        margin-top: 5rem;
+        font-size: 2rem;
+        margin-top: 20rem;
       }
 
       .form {
-        margin-top: 2rem !important;
+        margin-top: -1rem !important;
       }
 
       button[type="submit"] {
-        margin-top: 1rem;
+        margin-top: 6rem;
+        background-color: $accent-color;
       }
 
       .contact-info1 {
-        margin-top: 2rem;
+        margin-top: 1rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
