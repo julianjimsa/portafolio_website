@@ -214,7 +214,7 @@ input[class^="btn-"]:hover {
   #headerproject-2,
   #headerproject-3,
   #headerproject-4 {
-    height: 50vh; }
+    height: 40vh; }
   #project-1 .intro-content, #project-4 .intro-content, #project-5 .intro-content, #project-6 .intro-content, #project-7 .intro-content {
     flex-direction: column; }
   #project-1 .intro-text2, #project-4 .intro-text2, #project-5 .intro-text2, #project-6 .intro-text2, #project-7 .intro-text2 {
@@ -1344,7 +1344,7 @@ img {
   #headerproject-2,
   #headerproject-3,
   #headerproject-4 {
-    height: 50vh; }
+    height: 40vh; }
   #project-1 .intro-content, #project-4 .intro-content, #project-5 .intro-content, #project-6 .intro-content, #project-7 .intro-content {
     flex-direction: column; }
   #project-1 .intro-text2, #project-4 .intro-text2, #project-5 .intro-text2, #project-6 .intro-text2, #project-7 .intro-text2 {
