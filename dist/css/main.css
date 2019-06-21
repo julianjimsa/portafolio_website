@@ -188,15 +188,15 @@ input[class^="btn-"]:hover {
     z-index: 200 !important; }
   #contact-a .circle {
     position: absolute;
-    top: 25% !important;
+    top: 30% !important;
     width: 350px !important; }
   #contact-a .section-title2 {
     font-size: 2rem;
-    margin-top: 20rem; }
+    margin-top: 28rem; }
   #contact-a .form {
-    margin-top: -1rem !important; }
+    margin-top: -1.4rem !important; }
   #contact-a button[type="submit"] {
-    margin-top: 6rem;
+    margin-top: 6rem !important;
     background-color: #e6a29f; }
   #contact-a .contact-info1 {
     margin-top: 1rem;
@@ -1318,15 +1318,15 @@ img {
     z-index: 200 !important; }
   #contact-a .circle {
     position: absolute;
-    top: 25% !important;
+    top: 30% !important;
     width: 350px !important; }
   #contact-a .section-title2 {
     font-size: 2rem;
-    margin-top: 20rem; }
+    margin-top: 28rem; }
   #contact-a .form {
-    margin-top: -1rem !important; }
+    margin-top: -1.4rem !important; }
   #contact-a button[type="submit"] {
-    margin-top: 6rem;
+    margin-top: 6rem !important;
     background-color: #e6a29f; }
   #contact-a .contact-info1 {
     margin-top: 1rem;

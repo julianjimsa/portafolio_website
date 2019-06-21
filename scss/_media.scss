@@ -175,21 +175,21 @@
     &-a {
       .circle {
         position: absolute;
-        top: 25% !important;
+        top: 30% !important;
         width: 350px !important;
       }
 
       .section-title2 {
         font-size: 2rem;
-        margin-top: 20rem;
+        margin-top: 28rem;
       }
 
       .form {
-        margin-top: -1rem !important;
+        margin-top: -1.4rem !important;
       }
 
       button[type="submit"] {
-        margin-top: 6rem;
+        margin-top: 6rem !important;
         background-color: $accent-color;
       }
 
