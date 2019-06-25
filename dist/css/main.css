@@ -214,7 +214,13 @@ input[class^="btn-"]:hover {
   #headerproject-5,
   #headerproject-6,
   #headerproject-7 {
-    height: 40vh; }
+    height: 50vh; }
+    #headerproject-1 .trans-text, #headerproject-4 .trans-text, #headerproject-5 .trans-text, #headerproject-6 .trans-text, #headerproject-7 .trans-text,
+    #headerproject-4 .trans-text,
+    #headerproject-5 .trans-text,
+    #headerproject-6 .trans-text,
+    #headerproject-7 .trans-text {
+      font-size: 7rem; }
   #project-1 .intro, #project-4 .intro, #project-5 .intro, #project-6 .intro, #project-7 .intro,
   #project-4 .intro,
   #project-5 .intro,
@@ -1420,7 +1426,13 @@ img {
   #headerproject-5,
   #headerproject-6,
   #headerproject-7 {
-    height: 40vh; }
+    height: 50vh; }
+    #headerproject-1 .trans-text, #headerproject-4 .trans-text, #headerproject-5 .trans-text, #headerproject-6 .trans-text, #headerproject-7 .trans-text,
+    #headerproject-4 .trans-text,
+    #headerproject-5 .trans-text,
+    #headerproject-6 .trans-text,
+    #headerproject-7 .trans-text {
+      font-size: 7rem; }
   #project-1 .intro, #project-4 .intro, #project-5 .intro, #project-6 .intro, #project-7 .intro,
   #project-4 .intro,
   #project-5 .intro,
