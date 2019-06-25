@@ -275,6 +275,8 @@ input[class^="btn-"]:hover {
       #info-6 .infoblock-3 .info-title,
       #info-7 .infoblock-3 .info-title {
         width: 100%; }
+    #info-1 .screenShow, #info-5 .screenShow, #info-4 .screenShow, #info-6 .screenShow, #info-7 .screenShow {
+      display: none; }
     
     #info-1 .infoblock-3 .info-title,
     #info-5 .infoblock-3 .info-title,
@@ -521,6 +523,8 @@ input[class^="btn-"]:hover {
       text-align: center;
       margin: 2rem;
       font-size: 1.5rem; }
+  #info-1 .mediaShow, #info-5 .mediaShow, #info-4 .mediaShow, #info-6 .mediaShow, #info-7 .mediaShow {
+    display: none; }
 
 #info-5 .infoblock-1 {
   margin-top: 0; }
@@ -1467,6 +1471,8 @@ img {
       #info-6 .infoblock-3 .info-title,
       #info-7 .infoblock-3 .info-title {
         width: 100%; }
+    #info-1 .screenShow, #info-5 .screenShow, #info-4 .screenShow, #info-6 .screenShow, #info-7 .screenShow {
+      display: none; }
     
     #info-1 .infoblock-3 .info-title,
     #info-5 .infoblock-3 .info-title,
