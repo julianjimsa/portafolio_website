@@ -220,7 +220,8 @@ input[class^="btn-"]:hover {
     #headerproject-5 .trans-text,
     #headerproject-6 .trans-text,
     #headerproject-7 .trans-text {
-      font-size: 6vw; }
+      font-size: 6vw;
+      z-index: 300; }
   #project-1 .intro, #project-4 .intro, #project-5 .intro, #project-6 .intro, #project-7 .intro,
   #project-4 .intro,
   #project-5 .intro,
@@ -1465,7 +1466,8 @@ img {
     #headerproject-5 .trans-text,
     #headerproject-6 .trans-text,
     #headerproject-7 .trans-text {
-      font-size: 6vw; }
+      font-size: 6vw;
+      z-index: 300; }
   #project-1 .intro, #project-4 .intro, #project-5 .intro, #project-6 .intro, #project-7 .intro,
   #project-4 .intro,
   #project-5 .intro,
