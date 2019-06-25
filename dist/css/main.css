@@ -171,8 +171,7 @@ input[class^="btn-"]:hover {
   #about-b img {
     width: 130px;
     margin-bottom: -21px;
-    margin-left: 0.3rem;
-    display: inline; }
+    margin-left: 0.3rem; }
   #about-d .sub {
     font-size: 1.5rem !important;
     line-height: 50px;
@@ -1364,8 +1363,7 @@ img {
   #about-b img {
     width: 130px;
     margin-bottom: -21px;
-    margin-left: 0.3rem;
-    display: inline; }
+    margin-left: 0.3rem; }
   #about-d .sub {
     font-size: 1.5rem !important;
     line-height: 50px;
