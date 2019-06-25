@@ -308,7 +308,7 @@ input[class^="btn-"]:hover {
       #info-4 .infoblock-3 .info-visual,
       #info-6 .infoblock-3 .info-visual,
       #info-7 .infoblock-3 .info-visual {
-        margin: 0;
+        margin: 0 auto;
         width: 100%; }
     #info-1 .screenShow, #info-5 .screenShow, #info-4 .screenShow, #info-6 .screenShow, #info-7 .screenShow {
       display: none; }
@@ -1553,7 +1553,7 @@ img {
       #info-4 .infoblock-3 .info-visual,
       #info-6 .infoblock-3 .info-visual,
       #info-7 .infoblock-3 .info-visual {
-        margin: 0;
+        margin: 0 auto;
         width: 100%; }
     #info-1 .screenShow, #info-5 .screenShow, #info-4 .screenShow, #info-6 .screenShow, #info-7 .screenShow {
       display: none; }
