@@ -221,7 +221,7 @@ input[class^="btn-"]:hover {
   #project-5 .intro,
   #project-6 .intro,
   #project-7 .intro {
-    margin: 3rem 0; }
+    margin-top: 3rem; }
   #project-1 .intro-content, #project-4 .intro-content, #project-5 .intro-content, #project-6 .intro-content, #project-7 .intro-content,
   #project-4 .intro-content,
   #project-5 .intro-content,
@@ -309,6 +309,8 @@ input[class^="btn-"]:hover {
 #project-1 .intro, #project-4 .intro, #project-5 .intro, #project-6 .intro, #project-7 .intro {
   margin-top: 10rem;
   padding: 1rem; }
+  #project-1 .intro .intro-title, #project-4 .intro .intro-title, #project-5 .intro .intro-title, #project-6 .intro .intro-title, #project-7 .intro .intro-title {
+    margin-bottom: 2rem; }
 
 #project-1 .container, #project-4 .container, #project-5 .container, #project-6 .container, #project-7 .container {
   padding: 1rem;
@@ -1366,7 +1368,7 @@ img {
   #project-5 .intro,
   #project-6 .intro,
   #project-7 .intro {
-    margin: 3rem 0; }
+    margin-top: 3rem; }
   #project-1 .intro-content, #project-4 .intro-content, #project-5 .intro-content, #project-6 .intro-content, #project-7 .intro-content,
   #project-4 .intro-content,
   #project-5 .intro-content,
