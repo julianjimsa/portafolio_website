@@ -238,6 +238,8 @@ input[class^="btn-"]:hover {
     text-align: center; }
   #info-1, #info-5, #info-4, #info-6, #info-7 {
     margin-top: 0; }
+    #info-1 .container, #info-5 .container, #info-4 .container, #info-6 .container, #info-7 .container {
+      padding: 0.5rem; }
     #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,
     #info-1 .infoblock-1,
     #info-5 .infoblock-1,
@@ -280,7 +282,10 @@ input[class^="btn-"]:hover {
     #info-4 .infoblock-3 .info-title,
     #info-6 .infoblock-3 .info-title,
     #info-7 .infoblock-3 .info-title {
-      text-align: center; } }
+      text-align: center; }
+    #info-1 .infoblock-3 .info-visual, #info-5 .infoblock-3 .info-visual, #info-4 .infoblock-3 .info-visual, #info-6 .infoblock-3 .info-visual, #info-7 .infoblock-3 .info-visual {
+      margin: 0;
+      width: 100%; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {
@@ -1426,6 +1431,8 @@ img {
     text-align: center; }
   #info-1, #info-5, #info-4, #info-6, #info-7 {
     margin-top: 0; }
+    #info-1 .container, #info-5 .container, #info-4 .container, #info-6 .container, #info-7 .container {
+      padding: 0.5rem; }
     #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,
     #info-1 .infoblock-1,
     #info-5 .infoblock-1,
@@ -1468,7 +1475,10 @@ img {
     #info-4 .infoblock-3 .info-title,
     #info-6 .infoblock-3 .info-title,
     #info-7 .infoblock-3 .info-title {
-      text-align: center; } }
+      text-align: center; }
+    #info-1 .infoblock-3 .info-visual, #info-5 .infoblock-3 .info-visual, #info-4 .infoblock-3 .info-visual, #info-6 .infoblock-3 .info-visual, #info-7 .infoblock-3 .info-visual {
+      margin: 0;
+      width: 100%; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {

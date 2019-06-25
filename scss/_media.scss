@@ -244,6 +244,10 @@
   }
 
   #info-1 {
+    .container {
+      padding: 0.5rem;
+    }
+
     margin-top: 0;
     .infoblock-4,
     .infoblock-1,
@@ -261,6 +265,10 @@
     .infoblock-3 {
       .info-title {
         text-align: center;
+      }
+      .info-visual {
+        margin: 0;
+        width: 100%;
       }
     }
   }
