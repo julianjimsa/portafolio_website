@@ -233,26 +233,54 @@ input[class^="btn-"]:hover {
   #project-5 .intro-text2,
   #project-6 .intro-text2,
   #project-7 .intro-text2 {
+    margin-bottom: 4rem;
     width: 100%;
     text-align: center; }
-  #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,
-  #info-1 .infoblock-1,
-  #info-5 .infoblock-1,
-  #info-4 .infoblock-1,
-  #info-6 .infoblock-1,
-  #info-7 .infoblock-1,
-  #info-1 .infoblock-2,
-  #info-5 .infoblock-2,
-  #info-4 .infoblock-2,
-  #info-6 .infoblock-2,
-  #info-7 .infoblock-2,
-  #info-1 .infoblock-3,
-  #info-5 .infoblock-3,
-  #info-4 .infoblock-3,
-  #info-6 .infoblock-3,
-  #info-7 .infoblock-3 {
-    flex-direction: column;
-    width: 100%; } }
+  #info-1, #info-5, #info-4, #info-6, #info-7 {
+    margin-top: 0; }
+    #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,
+    #info-1 .infoblock-1,
+    #info-5 .infoblock-1,
+    #info-4 .infoblock-1,
+    #info-6 .infoblock-1,
+    #info-7 .infoblock-1,
+    #info-1 .infoblock-2,
+    #info-5 .infoblock-2,
+    #info-4 .infoblock-2,
+    #info-6 .infoblock-2,
+    #info-7 .infoblock-2,
+    #info-1 .infoblock-3,
+    #info-5 .infoblock-3,
+    #info-4 .infoblock-3,
+    #info-6 .infoblock-3,
+    #info-7 .infoblock-3 {
+      flex-direction: column;
+      width: 100%;
+      margin: 0; }
+      #info-1 .infoblock-4 .info-title, #info-5 .infoblock-4 .info-title, #info-4 .infoblock-4 .info-title, #info-6 .infoblock-4 .info-title, #info-7 .infoblock-4 .info-title,
+      #info-1 .infoblock-1 .info-title,
+      #info-5 .infoblock-1 .info-title,
+      #info-4 .infoblock-1 .info-title,
+      #info-6 .infoblock-1 .info-title,
+      #info-7 .infoblock-1 .info-title,
+      #info-1 .infoblock-2 .info-title,
+      #info-5 .infoblock-2 .info-title,
+      #info-4 .infoblock-2 .info-title,
+      #info-6 .infoblock-2 .info-title,
+      #info-7 .infoblock-2 .info-title,
+      #info-1 .infoblock-3 .info-title,
+      #info-5 .infoblock-3 .info-title,
+      #info-4 .infoblock-3 .info-title,
+      #info-6 .infoblock-3 .info-title,
+      #info-7 .infoblock-3 .info-title {
+        width: 100%; }
+    
+    #info-1 .infoblock-3 .info-title,
+    #info-5 .infoblock-3 .info-title,
+    #info-4 .infoblock-3 .info-title,
+    #info-6 .infoblock-3 .info-title,
+    #info-7 .infoblock-3 .info-title {
+      text-align: center; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {
@@ -309,8 +337,6 @@ input[class^="btn-"]:hover {
 #project-1 .intro, #project-4 .intro, #project-5 .intro, #project-6 .intro, #project-7 .intro {
   margin-top: 10rem;
   padding: 1rem; }
-  #project-1 .intro .intro-title, #project-4 .intro .intro-title, #project-5 .intro .intro-title, #project-6 .intro .intro-title, #project-7 .intro .intro-title {
-    margin-bottom: 2rem; }
 
 #project-1 .container, #project-4 .container, #project-5 .container, #project-6 .container, #project-7 .container {
   padding: 1rem;
@@ -415,7 +441,12 @@ input[class^="btn-"]:hover {
       width: 100%;
       height: auto;
       margin: 1rem; }
-    #info-1 .infoblock-1 .info-title, #info-5 .infoblock-1 .info-title, #info-4 .infoblock-1 .info-title, #info-6 .infoblock-1 .info-title, #info-7 .infoblock-1 .info-title {
+    
+    #info-1 .infoblock-1 .info-title,
+    #info-5 .infoblock-1 .info-title,
+    #info-4 .infoblock-1 .info-title,
+    #info-6 .infoblock-1 .info-title,
+    #info-7 .infoblock-1 .info-title {
       width: 100%;
       text-align: left;
       margin: 1rem; }
@@ -438,7 +469,12 @@ input[class^="btn-"]:hover {
       width: 100%;
       height: auto;
       margin: 1rem; }
-    #info-1 .infoblock-2 .info-title, #info-5 .infoblock-2 .info-title, #info-4 .infoblock-2 .info-title, #info-6 .infoblock-2 .info-title, #info-7 .infoblock-2 .info-title {
+    
+    #info-1 .infoblock-2 .info-title,
+    #info-5 .infoblock-2 .info-title,
+    #info-4 .infoblock-2 .info-title,
+    #info-6 .infoblock-2 .info-title,
+    #info-7 .infoblock-2 .info-title {
       width: 100%;
       text-align: right;
       margin: 1rem; }
@@ -461,7 +497,12 @@ input[class^="btn-"]:hover {
       width: 90%;
       height: auto;
       margin: 1rem; }
-    #info-1 .infoblock-3 .info-title, #info-5 .infoblock-3 .info-title, #info-4 .infoblock-3 .info-title, #info-6 .infoblock-3 .info-title, #info-7 .infoblock-3 .info-title {
+    
+    #info-1 .infoblock-3 .info-title,
+    #info-5 .infoblock-3 .info-title,
+    #info-4 .infoblock-3 .info-title,
+    #info-6 .infoblock-3 .info-title,
+    #info-7 .infoblock-3 .info-title {
       width: 70%;
       text-align: left;
       margin: 1rem; }
@@ -1380,26 +1421,54 @@ img {
   #project-5 .intro-text2,
   #project-6 .intro-text2,
   #project-7 .intro-text2 {
+    margin-bottom: 4rem;
     width: 100%;
     text-align: center; }
-  #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,
-  #info-1 .infoblock-1,
-  #info-5 .infoblock-1,
-  #info-4 .infoblock-1,
-  #info-6 .infoblock-1,
-  #info-7 .infoblock-1,
-  #info-1 .infoblock-2,
-  #info-5 .infoblock-2,
-  #info-4 .infoblock-2,
-  #info-6 .infoblock-2,
-  #info-7 .infoblock-2,
-  #info-1 .infoblock-3,
-  #info-5 .infoblock-3,
-  #info-4 .infoblock-3,
-  #info-6 .infoblock-3,
-  #info-7 .infoblock-3 {
-    flex-direction: column;
-    width: 100%; } }
+  #info-1, #info-5, #info-4, #info-6, #info-7 {
+    margin-top: 0; }
+    #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,
+    #info-1 .infoblock-1,
+    #info-5 .infoblock-1,
+    #info-4 .infoblock-1,
+    #info-6 .infoblock-1,
+    #info-7 .infoblock-1,
+    #info-1 .infoblock-2,
+    #info-5 .infoblock-2,
+    #info-4 .infoblock-2,
+    #info-6 .infoblock-2,
+    #info-7 .infoblock-2,
+    #info-1 .infoblock-3,
+    #info-5 .infoblock-3,
+    #info-4 .infoblock-3,
+    #info-6 .infoblock-3,
+    #info-7 .infoblock-3 {
+      flex-direction: column;
+      width: 100%;
+      margin: 0; }
+      #info-1 .infoblock-4 .info-title, #info-5 .infoblock-4 .info-title, #info-4 .infoblock-4 .info-title, #info-6 .infoblock-4 .info-title, #info-7 .infoblock-4 .info-title,
+      #info-1 .infoblock-1 .info-title,
+      #info-5 .infoblock-1 .info-title,
+      #info-4 .infoblock-1 .info-title,
+      #info-6 .infoblock-1 .info-title,
+      #info-7 .infoblock-1 .info-title,
+      #info-1 .infoblock-2 .info-title,
+      #info-5 .infoblock-2 .info-title,
+      #info-4 .infoblock-2 .info-title,
+      #info-6 .infoblock-2 .info-title,
+      #info-7 .infoblock-2 .info-title,
+      #info-1 .infoblock-3 .info-title,
+      #info-5 .infoblock-3 .info-title,
+      #info-4 .infoblock-3 .info-title,
+      #info-6 .infoblock-3 .info-title,
+      #info-7 .infoblock-3 .info-title {
+        width: 100%; }
+    
+    #info-1 .infoblock-3 .info-title,
+    #info-5 .infoblock-3 .info-title,
+    #info-4 .infoblock-3 .info-title,
+    #info-6 .infoblock-3 .info-title,
+    #info-7 .infoblock-3 .info-title {
+      text-align: center; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {

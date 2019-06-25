@@ -237,18 +237,31 @@
     }
 
     .intro-text2 {
+      margin-bottom: 4rem;
       width: 100%;
       text-align: center;
     }
   }
 
   #info-1 {
+    margin-top: 0;
     .infoblock-4,
     .infoblock-1,
     .infoblock-2,
     .infoblock-3 {
       flex-direction: column;
       width: 100%;
+      margin: 0;
+
+      .info-title {
+        width: 100%;
+      }
+    }
+
+    .infoblock-3 {
+      .info-title {
+        text-align: center;
+      }
     }
   }
 
