@@ -255,6 +255,11 @@
   #info-1 {
     .container {
       padding: 0.5rem;
+
+      iframe {
+        width: 420px;
+        height: 210px;
+      }
     }
 
     margin-top: 0;

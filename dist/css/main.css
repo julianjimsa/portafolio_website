@@ -253,6 +253,9 @@ input[class^="btn-"]:hover {
     margin-top: 0; }
     #info-1 .container, #info-5 .container, #info-4 .container, #info-6 .container, #info-7 .container {
       padding: 0.5rem; }
+      #info-1 .container iframe, #info-5 .container iframe, #info-4 .container iframe, #info-6 .container iframe, #info-7 .container iframe {
+        width: 420px;
+        height: 210px; }
     #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,
     #info-1 .infoblock-1,
     #info-5 .infoblock-1,
@@ -1465,6 +1468,9 @@ img {
     margin-top: 0; }
     #info-1 .container, #info-5 .container, #info-4 .container, #info-6 .container, #info-7 .container {
       padding: 0.5rem; }
+      #info-1 .container iframe, #info-5 .container iframe, #info-4 .container iframe, #info-6 .container iframe, #info-7 .container iframe {
+        width: 420px;
+        height: 210px; }
     #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,
     #info-1 .infoblock-1,
     #info-5 .infoblock-1,
