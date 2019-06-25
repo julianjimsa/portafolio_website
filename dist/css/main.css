@@ -216,9 +216,23 @@ input[class^="btn-"]:hover {
   #headerproject-6,
   #headerproject-7 {
     height: 40vh; }
-  #project-1 .intro-content, #project-4 .intro-content, #project-5 .intro-content, #project-6 .intro-content, #project-7 .intro-content {
+  #project-1 .intro, #project-4 .intro, #project-5 .intro, #project-6 .intro, #project-7 .intro,
+  #project-4 .intro,
+  #project-5 .intro,
+  #project-6 .intro,
+  #project-7 .intro {
+    margin: 3rem 0; }
+  #project-1 .intro-content, #project-4 .intro-content, #project-5 .intro-content, #project-6 .intro-content, #project-7 .intro-content,
+  #project-4 .intro-content,
+  #project-5 .intro-content,
+  #project-6 .intro-content,
+  #project-7 .intro-content {
     flex-direction: column; }
-  #project-1 .intro-text2, #project-4 .intro-text2, #project-5 .intro-text2, #project-6 .intro-text2, #project-7 .intro-text2 {
+  #project-1 .intro-text2, #project-4 .intro-text2, #project-5 .intro-text2, #project-6 .intro-text2, #project-7 .intro-text2,
+  #project-4 .intro-text2,
+  #project-5 .intro-text2,
+  #project-6 .intro-text2,
+  #project-7 .intro-text2 {
     width: 100%;
     text-align: center; }
   #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,
@@ -1347,9 +1361,23 @@ img {
   #headerproject-6,
   #headerproject-7 {
     height: 40vh; }
-  #project-1 .intro-content, #project-4 .intro-content, #project-5 .intro-content, #project-6 .intro-content, #project-7 .intro-content {
+  #project-1 .intro, #project-4 .intro, #project-5 .intro, #project-6 .intro, #project-7 .intro,
+  #project-4 .intro,
+  #project-5 .intro,
+  #project-6 .intro,
+  #project-7 .intro {
+    margin: 3rem 0; }
+  #project-1 .intro-content, #project-4 .intro-content, #project-5 .intro-content, #project-6 .intro-content, #project-7 .intro-content,
+  #project-4 .intro-content,
+  #project-5 .intro-content,
+  #project-6 .intro-content,
+  #project-7 .intro-content {
     flex-direction: column; }
-  #project-1 .intro-text2, #project-4 .intro-text2, #project-5 .intro-text2, #project-6 .intro-text2, #project-7 .intro-text2 {
+  #project-1 .intro-text2, #project-4 .intro-text2, #project-5 .intro-text2, #project-6 .intro-text2, #project-7 .intro-text2,
+  #project-4 .intro-text2,
+  #project-5 .intro-text2,
+  #project-6 .intro-text2,
+  #project-7 .intro-text2 {
     width: 100%;
     text-align: center; }
   #info-1 .infoblock-4, #info-5 .infoblock-4, #info-4 .infoblock-4, #info-6 .infoblock-4, #info-7 .infoblock-4,

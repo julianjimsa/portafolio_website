@@ -223,7 +223,15 @@
     height: 40vh;
   }
 
-  #project-1 {
+  #project-1,
+  #project-4,
+  #project-5,
+  #project-6,
+  #project-7 {
+    .intro {
+      margin: 3rem 0;
+    }
+
     .intro-content {
       flex-direction: column;
     }
